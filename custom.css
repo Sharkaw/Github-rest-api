@@ -1,29 +1,36 @@
-.container{
-   background-color: #D9D9D9; 
+body{
+   background-color: #D9D9D9;
+   font-family: sans-serif;
+   /*font-family: 'Archivo Narrow', sans-serif;*/
 }
 .jumbotron{
     background-color: #D9B0B6;
     padding-top: 20px;
     padding-bottom: 20px;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.row .col {
-    background-color: none;
-}
-.h3 {
-    font: optional;
+h2 {
+    font-family: 'Julius Sans One', sans-serif;
     color: #2C3C53;
 }
-
+form, p {
+    font-family: 'Archivo Narrow', sans-serif;
+    color: #2C3C53;
+}
 .btn {
-    font: optional;
+    font-family: 'Archivo Narrow', sans-serif;
     background-color: #D9B0B6;
     border-color: #D9B0B6;
 }
 .btn:hover {
     background-color: #2C3C53;
     border-color: #2C3C53;
+    color: #D9B0B6;
+}
+.footer {
+    background-color: #D9D9D9;
+    font-family: 'Archivo Narrow', sans-serif;
 }
 main > .container {
     padding: 60px 15px 0;
-  }
+}
